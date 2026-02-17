@@ -1,4 +1,4 @@
-## Torus Knot Particle Field (LWJGL / Java)
+## Torus Knot Particle Field Made By Re Using(LWJGL / Java)
 
 A small Java / LWJGL demo that renders a rotating **torus knot** made of particles, flying in a star field background, using OpenGL 3.3 core profile.
 
@@ -230,5 +230,6 @@ Each frame, the knot is rotated by a small angle:
 - Axis: \( \mathbf{a} = (0.5, 1, 0) \) (normalized internally)
 
 The model matrix is a 3D rotation around axis \( \mathbf{a} \) by angle \( \theta \), using Rodrigues’ rotation formula (handled by JOML).
+
 
 
